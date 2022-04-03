@@ -1,0 +1,45 @@
+.container {
+    background-color: black;
+    height: 570px;
+    width: 450px;
+    margin: auto;
+    padding: 70px;
+    margin-top: 10px;
+    margin-right: 25%;
+    border-radius: 15px;
+    border: none;
+}
+
+.brand {
+    color: white;
+    text-align: center;
+    padding-bottom: 25px;
+   margin-top: 5px;
+}
+
+#display {
+    height: 80px;
+    width: 400px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    font-size: 45px;
+    border: none;
+    text-align: right;
+}
+
+.btn {
+    height: 75px;
+    width: 75px;
+    background-color: gray;
+    margin-top: 20px;
+    margin-right: 20px;
+   
+    font-size: 40px;
+    border-radius: 10%;
+    border: none;
+    box-shadow: 0px 5px 3px rgba(77, 76, 76, 0.996);
+}
+.btn:active{
+    box-shadow: 0px 0px 0px;
+    transform: translateY(5px);
+}
